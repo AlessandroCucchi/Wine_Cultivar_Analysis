@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400" role="img" aria-label="Wine analysis: wine glass above three coloured dots, one per cultivar">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3b0a1c"/>
+      <stop offset="1" stop-color="#7a1f3d"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" rx="56" fill="url(#bg)"/>
+  <!-- wine in the glass -->
+  <path d="M146 132 H254 C252 172 232 200 200 200 C168 200 148 172 146 132 Z" fill="#e3b866"/>
+  <!-- glass: bowl, stem, base -->
+  <path d="M140 76 H260 C260 148 236 206 200 206 C164 206 140 148 140 76 Z" fill="none" stroke="#faf3e8" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M200 206 V282" fill="none" stroke="#faf3e8" stroke-width="7" stroke-linecap="round"/>
+  <path d="M162 284 H238" fill="none" stroke="#faf3e8" stroke-width="7" stroke-linecap="round"/>
+  <!-- three cultivars -->
+  <circle cx="150" cy="338" r="14" fill="#faf3e8"/>
+  <circle cx="200" cy="338" r="14" fill="#d9768f"/>
+  <circle cx="250" cy="338" r="14" fill="#e3b866"/>
+</svg>

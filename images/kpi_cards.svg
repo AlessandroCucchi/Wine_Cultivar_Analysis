@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="210" viewBox="0 0 1200 210" role="img" aria-label="Key metrics: 96 to 98 percent accuracy, 3 key measurements, 20 points lost without scaling, a perfect score is mostly luck">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3b0a1c"/><stop offset="1" stop-color="#7a1f3d"/></linearGradient></defs>
+<rect x="0" y="0" width="291" height="210" rx="16" fill="url(#g)"/>
+<text x="26" y="90" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="54" font-weight="800" fill="#e3b866">96-98%</text>
+<text x="26" y="132" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#ffffff">Cultivar identified</text>
+<text x="26" y="162" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#e8c4b4">vs about 40% for a naive rule</text>
+<rect x="303" y="0" width="291" height="210" rx="16" fill="url(#g)"/>
+<text x="329" y="90" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="54" font-weight="800" fill="#e3b866">3 keys</text>
+<text x="329" y="132" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#ffffff">Key measurements</text>
+<text x="329" y="162" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#e8c4b4">flavanoids, proline, OD280</text>
+<rect x="606" y="0" width="291" height="210" rx="16" fill="url(#g)"/>
+<text x="632" y="90" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="54" font-weight="800" fill="#e3b866">-20 pts</text>
+<text x="632" y="132" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#ffffff">Accuracy if not scaled</text>
+<text x="632" y="162" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#e8c4b4">95.0% to 74.3% (KNN)</text>
+<rect x="909" y="0" width="291" height="210" rx="16" fill="url(#g)"/>
+<text x="935" y="90" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="54" font-weight="800" fill="#e3b866">100%</text>
+<text x="935" y="132" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#ffffff">Is mostly luck</text>
+<text x="935" y="162" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" fill="#e8c4b4">reached in 5-25% of splits</text>
+</svg>

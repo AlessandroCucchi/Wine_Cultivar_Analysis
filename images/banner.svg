@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-label="Wine Cultivar Analysis">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3b0a1c"/><stop offset="1" stop-color="#7a1f3d"/></linearGradient></defs>
+  <rect width="1200" height="260" rx="14" fill="url(#g)"/>
+  <path d="M0 190 C120 150 200 230 320 190 S520 150 640 190 S840 230 960 190 S1120 150 1200 180" fill="none" stroke="#e3b866" stroke-opacity="0.35" stroke-width="3"/>
+  <path d="M0 215 C140 180 220 250 340 215 S540 180 660 215 S860 250 980 215 S1130 185 1200 205" fill="none" stroke="#e3b866" stroke-opacity="0.2" stroke-width="3"/>
+  <circle cx="1040" cy="60" r="12" fill="#faf3e8"/><circle cx="1080" cy="60" r="12" fill="#d9768f"/><circle cx="1120" cy="60" r="12" fill="#e3b866"/>
+  <text x="60" y="36" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" letter-spacing="3" fill="#e3b866">DATA ANALYSIS PROJECT</text>
+  <text x="60" y="100" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="50" font-weight="700" fill="#ffffff">Wine Cultivar Analysis</text>
+  <text x="60" y="144" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24" fill="#f0cfc0">Which chemical measurements tell three wines apart?</text>
+</svg>
