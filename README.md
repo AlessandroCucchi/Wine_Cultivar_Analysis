@@ -188,7 +188,7 @@ Wine_Cultivar_Analysis/
 
 ```bash
 git clone https://github.com/AlessandroCucchi/Wine_Cultivar_Analysis.git
-cd wine-cultivar-analysis
+cd Wine_Cultivar_Analysis
 
 python -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
