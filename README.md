@@ -177,7 +177,7 @@ flowchart LR
 ## Repository & How to Run
 
 ```
-wine-cultivar-analysis/
+Wine_Cultivar_Analysis/
 ├── notebooks/
 │   └── Wine_Cultivar_Analysis.ipynb   # full analysis, executed, with outputs
 ├── images/                            # figures and graphics used in this README
@@ -187,7 +187,7 @@ wine-cultivar-analysis/
 ```
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/wine-cultivar-analysis.git
+git clone https://github.com/AlessandroCucchi/Wine_Cultivar_Analysis.git
 cd wine-cultivar-analysis
 
 python -m venv .venv
