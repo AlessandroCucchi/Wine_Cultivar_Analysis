@@ -7,10 +7,7 @@
   <img src="https://img.shields.io/badge/pandas-3b0a1c?logo=pandas&logoColor=e3b866" alt="pandas">
   <img src="https://img.shields.io/badge/scikit--learn-3b0a1c?logo=scikitlearn&logoColor=e3b866" alt="scikit-learn">
   <img src="https://img.shields.io/badge/Jupyter-3b0a1c?logo=jupyter&logoColor=e3b866" alt="Jupyter">
-  <img src="https://img.shields.io/badge/License-MIT-a63a5c" alt="MIT license">
 </p>
-
-# Wine Cultivar Analysis: which chemical measurements tell three wines apart?
 
 <p align="center">
   <a href="#project-background">Background</a> ·
@@ -18,7 +15,6 @@
   <a href="#executive-summary">Executive Summary</a> ·
   <a href="#insights-deep-dive">Insights</a> ·
   <a href="#recommendations">Recommendations</a> ·
-  <a href="#limitations">Limitations</a> ·
   <a href="#repository--how-to-run">How to Run</a>
 </p>
 
@@ -27,8 +23,6 @@
 <br>
 
 <img src="images/h_background.svg" alt="Project Background" width="100%">
-
-## Project Background
 
 Imagine a wine-quality laboratory that must verify the grape cultivar of the bottles it receives. Checking by hand is slow, so the lab wants to know whether the **chemical analysis it already runs** is enough to recognise the cultivar, and **which measurements matter most**.
 
@@ -44,8 +38,6 @@ The analysis uses the classic *Wine* dataset (UCI Machine Learning Repository, b
 <br>
 
 <img src="images/h_metrics.svg" alt="Key Metrics" width="100%">
-
-## Key Metrics
 
 <img src="images/kpi_cards.svg" alt="Key metrics: 96 to 98 percent accuracy, 3 key measurements, 20 points lost without scaling, a perfect score is mostly luck" width="100%">
 
@@ -80,8 +72,6 @@ The analysis uses the classic *Wine* dataset (UCI Machine Learning Repository, b
 <br>
 
 <img src="images/h_insights.svg" alt="Insights Deep-Dive" width="100%">
-
-## Insights Deep-Dive
 
 ### 1. Each cultivar has its own chemical profile
 
@@ -177,27 +167,10 @@ flowchart LR
 
 <img src="images/h_reco.svg" alt="Recommendations" width="100%">
 
-## Recommendations
-
 1. **Use a simple model as a first-pass check, not as the final word.** A scaled Logistic Regression is accurate, fast and easy to explain to non-technical colleagues.
 2. **Always scale the measurements** before using any distance-based method, and report a **range** (96-98%) instead of a single score.
 3. **Test a lighter set of measurements.** Since flavanoids, proline and the OD280/OD315 ratio carry most of the signal, check whether a model using only them keeps its accuracy. That would make the analysis cheaper to run.
 4. **Validate on new wines** from other years, regions or laboratories before relying on the model in practice.
-
-<br>
-
-<img src="images/h_limits.svg" alt="Limitations" width="100%">
-
-## Limitations
-
-- **Very small dataset.** 178 wines, with 124 for training and 54 for testing. One test wine is worth 1.9 points of accuracy.
-- **An easy benchmark.** The Wine dataset is a classic teaching dataset with unusually well separated classes. Results like these should not be expected on harder, messier data.
-- **No external validation.** All wines come from one region and one source.
-- **Unnamed classes.** Findings describe *Cultivar 0, 1 and 2*, not named grape varieties.
-- **Limited search.** Two algorithms with small hyperparameter grids, and the 20-split comparison does not repeat tuning.
-- **Timings are indicative** (single run on a single-core machine).
-
-<br>
 
 <img src="images/h_repo.svg" alt="Repository and How to Run" width="100%">
 
@@ -224,11 +197,10 @@ pip install -r requirements.txt
 jupyter notebook notebooks/Wine_Cultivar_Analysis.ipynb
 ```
 
-The dataset ships with scikit-learn, so there is nothing to download. The notebook runs in well under a minute.
 
 ## About the Author
 
-**Alessandro Cucchi**, data analyst. I turn raw data into clear answers and explain them to the people who decide.
+**Alessandro Cucchi**
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-3b0a1c?logo=linkedin&logoColor=e3b866)](https://www.linkedin.com/in/YOUR-LINKEDIN/)
-[![GitHub](https://img.shields.io/badge/GitHub-3b0a1c?logo=github&logoColor=e3b866)](https://github.com/YOUR-USERNAME)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-3b0a1c?logo=linkedin&logoColor=e3b866)](https://www.linkedin.com/in/alessandrocucchi-)
+[![GitHub](https://img.shields.io/badge/GitHub-3b0a1c?logo=github&logoColor=e3b866)](https://github.com/AlessandroCucchi)
